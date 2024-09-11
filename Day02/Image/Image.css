@@ -1,12 +1,12 @@
 .album {
-  width: 100px;
-  height: 100px;
+  width: 1000px;
+  height: 1000px;
 }
 /* 부등호의 의미는 부모 > 자식 == 자식이 부모에게 속한다. */
 .album > img {
   /* 100%는 부모의 width와 height의 넓이를 100% 다 쓰겠다는 소리 */
-  width: 100%;
-  height: 100%;
+  width: 10%;
+  height: 10%;
 
   object-fit: cover;
 }

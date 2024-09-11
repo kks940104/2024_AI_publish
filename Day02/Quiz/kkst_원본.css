@@ -2,42 +2,41 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  align-items: center;
-  justify-content: center;
 }
 .album {
   display: flex;
   flex-direction: row;
-  gap: 10px;
 }
 
-.picture {
+.pictrue {
   width: 125px;
   height: 125px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.picture2 {
+.pictrue2 {
   width: 125px;
   height: 125px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.picture > Img {
-  width: 100%;
-  height: 100%;
+.pictrue > Image {
+  width: 50%;
+  height: 50%;
 }
-.picture2 > img {
-  width: 100%;
-  height: 100%;
+.pictrue2 > Image1 {
+  width: 50%;
+  height: 50%;
 }
-.Image {
-  border-radius: 10px;
-  cursor: pointer;
+/* .Image {
+  width: 50%;
+  height: 50%;
+  border-radius: 25px;
 }
 .Image1 {
+  width: 50%;
+  height: 50%;
   border-radius: 50%;
-  cursor: pointer;
-}
+} */
