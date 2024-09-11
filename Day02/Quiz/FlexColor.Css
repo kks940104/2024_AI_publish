@@ -1,0 +1,17 @@
+.MainDiv {
+  display: flex;
+  flex-direction: row;
+}
+.Hello1 {
+  background-color: #1abc9c;
+}
+.Hello2 {
+  background-color: #2ecc71;
+}
+.Hello3 {
+  background-color: #3498db;
+}
+.Hello {
+  width: 300px;
+  height: 300px;
+}

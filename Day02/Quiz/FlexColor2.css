@@ -1,0 +1,49 @@
+.MainDiv {
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+}
+.box_Color1 {
+  background-color: #1abc9c;
+}
+.box_Color2 {
+  background-color: #2ecc71;
+}
+.box_Color3 {
+  background-color: #3498db;
+}
+.box_Color4 {
+  background-color: #16a085;
+}
+.box_Color5 {
+  background-color: #27ae60;
+}
+.box_Color6 {
+  background-color: #2980b9;
+}
+.box_Color7 {
+  background-color: #f1c40f;
+}
+.box_Color8 {
+  background-color: #e67e22;
+}
+.box_Color9 {
+  background-color: #e74c3c;
+}
+.ColorBox {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: end;
+
+  color: white;
+  text-transform: uppercase;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  font-size: 10px;
+}

@@ -1,0 +1,10 @@
+button {
+  padding: 30px 14px 10px 14px;
+  border-style: hidden;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.Confetti {
+  padding-left: 10px;
+  font-weight: bold;
+}

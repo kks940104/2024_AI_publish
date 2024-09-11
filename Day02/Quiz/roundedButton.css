@@ -1,0 +1,20 @@
+.MainDiv {
+  border: 1px gray hidden;
+  width: 400px;
+  padding: 10px 0px 10px 0px;
+  align-content: center;
+  text-align: center;
+}
+button {
+  border-style: hidden;
+  font-weight: bold;
+  background-color: gainsboro;
+  /* Padding 사용 시 12,3,6,9 순서*/
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace; /*폰트*/
+  line-height: 50px; /*행간*/
+  text-transform: uppercase; /*글 모양 바꾸기 Ex) 대문자,소문자*/
+  /* word-spacing: 20px;*/ /* 단어 사이 간격*/
+}

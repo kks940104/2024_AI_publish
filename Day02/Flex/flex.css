@@ -1,0 +1,51 @@
+.box {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+
+  /* 자기 자식들을 가로 또는 세로로 배치하는 스타일 */
+  display: flex;
+  /* flex-direction은 flex가 필수로 있어야함. 혼자 사용 불가. */
+  /* cloumn : 세로, row : 가로. 아마 엑셀 생각하면 될듯. 아니면 Datagridview 생각. */
+  flex-direction: column;
+
+  /* 자식들 사이에 간격. */
+  /* gap: 10px; */
+  /* Main 축으로 정렬하는 방식. */
+  justify-content: space-around;
+
+  /* Sub축으로 정렬하는 방식 */
+  align-items: start;
+}
+.one {
+  background-color: green;
+}
+.two {
+  background-color: yellow;
+}
+.three {
+  background-color: red;
+}
+.test {
+  width: 100px;
+  height: 100px;
+}
+
+.code {
+  justify-content: start;
+  justify-content: center;
+  justify-content: end;
+
+  /* 부모폼의 크기에 정렬하여 맞춰진다. */
+  /* 자식들이 공평하게 너비를 차지. */
+  justify-content: space-around;
+  /* 양 끝은 공백없이 배치. */
+  justify-content: space-between;
+  /* 동일한 공백을 형성 */
+  justify-content: space-evenly;
+
+  /* Sub축 */
+  align-items: start;
+  align-items: center;
+  align-items: end;
+}
