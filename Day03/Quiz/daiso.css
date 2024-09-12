@@ -75,8 +75,22 @@
   flex-direction: column;
   color: red;
   font-size: 7px;
-  border: 2px solid red;
+  border: 1px solid red;
   width: 20px;
   height: 10px;
   align-items: center;
+}
+.icongift {
+  border-radius: 50%;
+  background-color: #eb6272;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 120px;
+  top: 185px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 75%;
 }
