@@ -1,0 +1,20 @@
+.box {
+  width: 300px;
+  height: 300px;
+  /* background-color: yellow;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(210, 213, 67, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.card {
+  width: 300px;
+  height: 300px;
+  background-image: url("gym.jpg");
+  background-size: cover;
+}

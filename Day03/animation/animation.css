@@ -1,0 +1,19 @@
+.text {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  /* 변형 관련된 속성 */
+  /* rotate -> 돌리기, scale -> 확대, 축소 */
+  /* transform: rotate(45deg) scale(2); */
+  /* 투명도 */
+  /* opacity: 0.5; */
+}
+/* hover는 마우스 올리면 적용됨. Mouseenter를 생각하면 될듯. */
+.text:hover {
+  /* border-radius: 50%;
+  background-color: yellow;
+  opacity: 0; */
+  transform: rotate(45deg) scale(2);
+  /* 변형이 일어날 때, 어떻게 적용시킬지. */
+  transition: all 1s;
+}

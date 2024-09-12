@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "DepartureMono-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2409-1@1.0/DepartureMono-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.card {
+  width: 350px;
+  height: 700px;
+  border-radius: 20px;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  padding: 100px 50px 0px 50px;
+}
+.contents {
+  /* border: 1px solid black; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.album {
+  width: 100px;
+  height: 100px;
+}
+.album > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.name {
+  font-family: DepartureMono-Regular;
+  color: white;
+  font-size: 18px;
+}
+.motto {
+  font-family: DepartureMono-Regular;
+  color: gray;
+  font-size: 18px;
+}
+.sns {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.listbox {
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.snsicon {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.snsicon > i {
+  font-size: 30px;
+  color: white;
+}

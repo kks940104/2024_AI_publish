@@ -1,0 +1,33 @@
+.MainDiv {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Image {
+  border-radius: 10px;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  font-weight: bold;
+}
+.Sale {
+  color: red;
+}
+.Name {
+  font-size: 10px;
+}
+.Example {
+  font-size: 10px;
+}
+.Example_Box {
+  display: flex;
+  flex-direction: row;
+}
+.palette {
+  font-size: 12px;
+}

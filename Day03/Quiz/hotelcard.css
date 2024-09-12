@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "yg-jalnan";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.MainDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  /* justify-content: center; */
+}
+.hotelcard1 {
+  background-image: url("hotelcard1.jpg");
+  width: 300px;
+  height: 500px;
+  background-size: cover;
+  padding: 20px 0px 0px 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.fontweight {
+  font-weight: bold;
+  font-size: 30px;
+}
+.textbox2 {
+  font-family: "yg-jalnan";
+  display: flex;
+  flex-direction: column;
+}
+.textbox3 {
+  font-family: "yg-jalnan";
+}
+.hotelcard2 {
+  background-image: url("hotelcard2.jpg");
+  width: 300px;
+  height: 500px;
+  background-size: cover;
+  padding: 20px 0px 0px 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.hotelcard3 {
+  background-image: url("hotelcard3.jpg");
+  width: 300px;
+  height: 500px;
+  background-size: cover;
+  padding: 20px 0px 0px 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.hotelcard4 {
+  background-image: url("hotelcard4.jpg");
+  width: 300px;
+  height: 500px;
+  background-size: cover;
+  padding: 20px 0px 0px 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.textbox1 {
+  font-family: "yg-jalnan";
+  border-bottom: 1px solid white;
+  width: fit-content;
+  padding-bottom: 3px;
+}

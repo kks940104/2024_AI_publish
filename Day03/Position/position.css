@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.up {
+  display: flex;
+  flex-direction: row;
+}
+.down {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  width: 300px;
+  height: 300px;
+}
+.pink {
+  background-color: pink;
+}
+.skyblue {
+  background-color: skyblue;
+}
+.orange {
+  background-color: orange;
+}
+.yellow {
+  background-color: yellow;
+}
+
+.move {
+  /* Position - top,left,bottom,right가 따라옴 */
+  /* 무조건 왼쪽 위 모서리 기준 */
+  /* relative는 상대적. */
+  position: relative;
+  /* 위에서 100px 떨어짐 */
+  top: 100px;
+  /* 왼쪽에서 100px 떨어짐 */
+  left: 300px;
+}
+.OrangeMove {
+  /* 상대적, object에서부터 움직임. */
+  position: relative;
+  bottom: 300px;
+  left: 300px;
+}
+.move2 {
+  /* 절대적, 브라우저 왼쪽 상단에서부터 움직임. */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+body {
+  height: 300vh;
+}
+.move3 {
+  /* 고정적, 화면에서 고정.*/
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+.test {
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+.test1 {
+  /* Absolute는 부모의 Position이 없어야 적용이 됨. */
+  /* 부모가 Position이 있으면 부모 기준이 절대 기준으로 변경됨. */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
