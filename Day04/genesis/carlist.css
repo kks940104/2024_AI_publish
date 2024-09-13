@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "SDSamliphopangche_Outline";
+  src: url("C:/Users/admin/Downloads/GenesisSansTextKROTF/GenesisSansTextKROTFRegular");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.car_list {
+  font-family: "SDSamliphopangche_Outline";
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+.explain3 {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.album {
+  width: 340px; /*10*/
+  height: 128px; /*4*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.album > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carname {
+  display: flex;
+  flex-direction: row;
+  opacity: 0.7;
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+.carname2 {
+  display: flex;
+  flex-direction: column;
+  opacity: 0.7;
+  padding-bottom: 50px;
+  font-size: 20px;
+  gap: 15px;
+}
+.NewName {
+  margin-right: 200px;
+}
+.New {
+  font-size: 10px;
+  border: 1px solid white;
+  padding: 5px;
+}
+.detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.carname3 {
+  display: flex;
+  flex-direction: column;
+  opacity: 0.7;
+  padding-bottom: 30px;
+  font-size: 20px;
+  gap: 15px;
+}

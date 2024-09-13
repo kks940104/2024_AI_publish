@@ -1,0 +1,117 @@
+@import url("https://static.toss.im/tps/main.css");
+@import url("https://static.toss.im/tps/others.css");
+
+* {
+  font-family: "Toss Product Sans";
+}
+
+.header {
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  background-color: white;
+}
+.nav {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 120px;
+  height: 60px;
+}
+.logo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-size: 15px;
+  color: #4e5968;
+}
+.links > li {
+  padding: 12px 10px;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+.links > li:hover {
+  padding: 12px 10px;
+  background-color: rgba(2, 32, 71, 0.05);
+  cursor: pointer;
+}
+
+/* .MainHeader {
+  position: fixed;
+  width: 100vw;
+  height: 50px;
+  background-color: white;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+}
+
+.MainCategory {
+  font-family: "Toss Product Sans";
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tossicon > img {
+  width: 15px;
+  height: 15px;
+  object-fit: cover;
+}
+.tossicon {
+  margin-top: 5px;
+  margin-right: 200px;
+  padding-left: 75px;
+  font-weight: bold;
+}
+
+.category {
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-right: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.language {
+  padding-top: 5px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.Text {
+  display: flex;
+  flex-direction: row;
+  width: 60px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Text:hover {
+  background-color: rgb(242, 244, 246);
+  border-radius: 10px;
+  cursor: pointer;
+} */

@@ -1,0 +1,16 @@
+@import url("https://static.toss.im/tps/main.css");
+@import url("https://static.toss.im/tps/others.css");
+
+* {
+  font-family: "Toss Product Sans";
+}
+
+.Subject {
+  width: 100vw;
+  background-color: #f9fafb;
+}
+
+.contents > h3 {
+  font-size: 24px;
+  font-weight: bold;
+}

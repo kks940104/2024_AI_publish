@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "SDSamliphopangche_Outline";
+  src: url("C:/Users/admin/Downloads/GenesisSansTextKROTF/GenesisSansTextKROTFRegular");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Sub {
+  font-family: "SDSamliphopangche_Outline";
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+.explain2 {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.explain2 > span {
+  font-size: 50px;
+}
+.underscore {
+  border-bottom: 1px solid white;
+  width: fit-content;
+  padding: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.one {
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
+}
+.contents {
+  width: 100%;
+  /* 님이 아무리 넓이가 넓어도 max는 1000인것뿐임 */
+  max-width: 1000px;
+  background-color: skyblue;
+  height: 100px;
+  /* 두개만 사용 할 때 위아래, 좌우다. */
+  margin: 0 auto;
+}
