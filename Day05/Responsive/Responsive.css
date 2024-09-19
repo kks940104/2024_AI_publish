@@ -1,0 +1,32 @@
+.box {
+  height: 500px;
+  width: 500px;
+  background-color: red;
+}
+
+/* 꼭 다 써야할까? 진짜 아닐거같은데... 조건문이 따로 있지 않을까?*/
+/* 강사님이 하시는거 보니까 다 써야하는게 맞는듯. */
+
+@media screen and (max-width: 1024px) {
+  .box {
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .box {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .box {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+  }
+}
